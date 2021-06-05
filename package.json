@@ -6,13 +6,13 @@
   "types": "build/Location.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "lint": "expo-module lint",
-    "test": "expo-module test",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module"
+    "build": "expo build",
+    "clean": "expo clean",
+    "lint": "expo lint",
+    "test": "expo test",
+    "prepare": "expo prepare",
+    "prepublishOnly": "expo prepublishOnly",
+    "expo-module": "expo"
   },
   "keywords": [
     "react-native",
