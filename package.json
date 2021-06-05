@@ -1,19 +1,10 @@
 {
-  "name": "expo-location",
-  "version": "12.0.4",
+  "name": "expo-location-fork",
+  "version": "1.0.0",
   "description": "Allows reading geolocation information from the device. Your app can poll for the current location or subscribe to location update events.",
   "main": "build/Location.js",
   "types": "build/Location.d.ts",
   "sideEffects": false,
-  "scripts": {
-    "build": "expo build",
-    "clean": "expo clean",
-    "lint": "expo lint",
-    "test": "expo test",
-    "prepare": "expo prepare",
-    "prepublishOnly": "expo prepublishOnly",
-    "expo-module": "expo"
-  },
   "keywords": [
     "react-native",
     "expo",
@@ -32,9 +23,8 @@
   "bugs": {
     "url": "https://github.com/expo/expo/issues"
   },
-  "author": "650 Industries, Inc.",
+  "author": "Filip Saric",
   "license": "MIT",
-  "homepage": "https://docs.expo.io/versions/latest/sdk/location/",
   "jest": {
     "preset": "expo-module-scripts"
   },
